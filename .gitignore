@@ -18,6 +18,7 @@ target/
 *.iws
 *.iml
 *.ipr
+out/
 
 ### NetBeans ###
 /nbproject/private/
@@ -31,3 +32,60 @@ build/
 
 ### VS Code ###
 .vscode/
+
+### Sistema operacional ###
+.DS_Store
+Thumbs.db
+desktop.ini
+*~
+*.swp
+*.swo
+
+### Build / compilados ###
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+bin/
+hs_err_pid*
+replay_pid*
+
+### Logs ###
+*.log
+logs/
+log/
+
+### Segredos / configs locais (NUNCA subir) ###
+.env
+.env.*
+!.env.example
+*.env
+application-local.properties
+application-local.yml
+application-dev.properties
+application-dev.yml
+application-secret.properties
+application-secret.yml
+application-prod.properties
+application-prod.yml
+**/secrets/
+**/credentials/
+*.pem
+*.key
+*.p12
+*.jks
+
+### Banco / dados locais ###
+*.db
+*.sqlite
+*.sqlite3
+*.sql.bak
+*.dump
+
+### Temporários ###
+tmp/
+temp/
+*.tmp
+*.bak
+*.orig
